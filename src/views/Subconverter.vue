@@ -359,6 +359,15 @@ export default {
         ],
         remoteConfig: [
           {
+            label: "王满仓最爱",
+            options: [
+              {
+                label: "ACL4SSR_Online_Full_NoAuto",
+                value: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini"
+              },
+            ]
+          },
+          {
             label: "CM规则",
             options: [
               {
@@ -790,7 +799,7 @@ export default {
         clientType: "",
         customBackend: this.getUrlParam() == "" ? "https://api-sub.happypang.top" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
-        remoteConfig: "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online.ini",
+        remoteConfig: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini",
         excludeRemarks: "",
         includeRemarks: "",
         filename: "",
