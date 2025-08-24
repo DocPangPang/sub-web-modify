@@ -338,7 +338,7 @@ export default {
           "suo.yt": "https://suo.yt/short",
         },
         customBackend: {
-          "自用专属后端": "https://api-sub.happypang.top",
+          "自用专属后端": "https://api-sub.xn--y20aa.com",
           "CM负载均衡后端【vless reality+hy1+hy2】": "https://subapi.cmliussss.net",
           "CM应急备用后端【vless reality+hy1+hy2】": "https://subapi.fxxk.dedyn.io",
           "肥羊增强型后端【vless reality+hy1+hy2】": "https://url.v1.mk",
@@ -348,7 +348,7 @@ export default {
           "sub-web作者提供": "https://api.wcc.best",
         },
         backendOptions: [
-          { value: "https://api-sub.happypang.top" },
+          { value: "https://api-sub.xn--y20aa.com" },
           { value: "https://subapi.cmliussss.net" },
           { value: "https://subapi.fxxk.dedyn.io" },
           { value: "https://url.v1.mk" },
@@ -797,7 +797,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: this.getUrlParam() == "" ? "https://api-sub.happypang.top" : this.getUrlParam(),
+        customBackend: this.getUrlParam() == "" ? "https://api-sub.xn--y20aa.com" : this.getUrlParam(),
         shortType: "https://v1.mk/short",
         remoteConfig: "https://github.com/ACL4SSR/ACL4SSR/raw/refs/heads/master/Clash/config/ACL4SSR_Online_Full_NoAuto.ini",
         excludeRemarks: "",
@@ -1321,3 +1321,4 @@ export default {
   }
 };
 </script>
+
